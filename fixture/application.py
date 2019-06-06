@@ -1,6 +1,7 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 from fixture.session import SessionHelper
 
+
 class Application:
 
     def __init__(self):
@@ -14,4 +15,4 @@ class Application:
         wd.get('http://lims-tst-web-portal.bitsoft.com.ua/')
 
     def destroy(self):
-        self.wd.quit
+        self.wd.quit()
