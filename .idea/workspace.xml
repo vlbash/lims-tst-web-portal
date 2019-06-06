@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce5e3ad-740d-497c-ba5c-c0e40b4c126c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/test_1_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_1_login_and_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_1_login.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +15,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_1_login.py">
+        <entry file="file://$PROJECT_DIR$/test/test_1_login_and_logout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -42,6 +56,7 @@
         <option value="$PROJECT_DIR$/test_1_login.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/test_1_login.py" />
+        <option value="$PROJECT_DIR$/application.py" />
       </list>
     </option>
   </component>
@@ -101,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_1_login.py">
+  <component name="RunManager">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="lims-tst-web-portal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_1_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_1_login_and_logout.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="lims-tst-web-portal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,17 +149,17 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_1_login.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_1_login_and_logout.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python tests.pytest in test_1_login.py" />
+      <item itemvalue="Python tests.pytest in test_1_login_and_logout.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_1_login.py" />
+        <item itemvalue="Python tests.pytest in test_1_login_and_logout.py" />
       </list>
     </recent_temporary>
   </component>
@@ -162,35 +177,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 24m 51s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 13m 43s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 27m 30s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 18m 45s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 29m 32s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 22m 33s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 31m 11s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 23m 48s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 32m 53s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 24m 13s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 35m 31s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 27m 56s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 36m 21s.xml">
+    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 23h 31m 56s.xml">
       <configuration name="pytest in test_1_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 37m 06s.xml">
-      <configuration name="pytest in test_1_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_1_login_and_logout_py - 2019.06.06 at 00h 22m 40s.xml">
+      <configuration name="pytest in test_1_login_and_logout.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 37m 47s.xml">
-      <configuration name="pytest in test_1_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_1_login_and_logout_py - 2019.06.06 at 00h 23m 50s.xml">
+      <configuration name="pytest in test_1_login_and_logout.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1_login_py - 2019.06.05 at 22h 38m 36s.xml">
-      <configuration name="pytest in test_1_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_1_login_and_logout_py - 2019.06.06 at 00h 28m 07s.xml">
+      <configuration name="pytest in test_1_login_and_logout.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -230,12 +245,22 @@
     <entry file="file://$PROJECT_DIR$/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_1_login.py">
+    <entry file="file://$PROJECT_DIR$/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+        <state relative-caret-position="918">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1_login_and_logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
