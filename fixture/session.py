@@ -1,5 +1,5 @@
 import time
-from selenium.webdriver import ActionChains
+# from selenium.webdriver import ActionChains
 
 class SessionHelper:
 
@@ -364,13 +364,17 @@ class SessionHelper:
         time.sleep(10)
 
         # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): Оберіть ЦСК «АЦСК ПАТ КБ «ПРИВАТБАНК
-        #wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[2]/div[2]/div/div").click()
+        wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[2]/div[2]/div/div").click()
 
         # wd.find_element_by_xpath("//span[contains(.,'Україна')]").click()
-        element = wd.find_element_by_xpath("//span[contains(.,'Україна')]").click
-        hover = ActionChains(wd).move_to_element(element)
+        # //li[@class='select-item'][14]
 
-        hover.perform()
+        wd.find_element_by_xpath("//li[@class='select-item'][14]").click()
+
+        #element = wd.find_element_by_xpath("//span[contains(.,'Україна')]").click
+        #hover = ActionChains(wd).move_to_element(element)
+
+        #hover.perform()
 
         # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): ОБЕРІТЬ ФАЙЛ З ОСОБИСТИМ КЛЮЧЕМ (ЗАЗВИЧАЙ З ІМ'ЯМ KEY-6.DAT) ТА ВКАЖІТЬ ПАРОЛЬ ЗАХИСТУ
         # Path
