@@ -1,6 +1,7 @@
 import time
 # from selenium.webdriver import ActionChains
 
+
 class SessionHelper:
 
     def __init__(self, app):
