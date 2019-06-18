@@ -1,5 +1,6 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 from fixture.session import SessionHelper
+from fixture.first_application import FirstApplicationHelper
 
 
 class Application:
@@ -10,6 +11,7 @@ class Application:
         self.wd.maximize_window()
         self.wd.implicitly_wait(30)
         self.session = SessionHelper(self)
+        self.first_application = FirstApplicationHelper(self)
 
     def open_home_page(self):
         wd = self.wd
