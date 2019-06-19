@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce5e3ad-740d-497c-ba5c-c0e40b4c126c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +18,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_lims_test_case_2_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/test/test_1_login_and_logout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -38,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6137">
-              <caret line="361" column="8" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="22" />
+            <state relative-caret-position="138">
+              <caret line="339" column="64" selection-start-line="339" selection-start-column="34" selection-end-line="339" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -56,7 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="289">
+              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -101,11 +109,11 @@
         <option value="$PROJECT_DIR$/test/test_1_login_and_logout.py" />
         <option value="$PROJECT_DIR$/test/test_2_login.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/first_application.py" />
-        <option value="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" />
       </list>
     </option>
   </component>
@@ -134,11 +142,6 @@
               <item name="lims-tst-web-portal" type="b2602c69:ProjectViewProjectNode" />
               <item name="lims-tst-web-portal" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lims-tst-web-portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lims-tst-web-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,9 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.18 at 16h 16m 41s.xml">
-      <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.18 at 16h 23m 13s.xml">
       <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
@@ -378,21 +378,24 @@
     <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.18 at 17h 36m 35s.xml">
       <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.19 at 13h 03m 56s.xml">
+      <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.12802951" />
-      <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" visible="true" weight="0.12802951" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.12802951" />
+      <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4907909" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4907909" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.23076923" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -401,18 +404,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12802951" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.12802951" />
+      <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
+      <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4907909" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4907909" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23076923" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23076923" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -449,40 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_1_login_and_logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_2_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6137">
-          <caret line="361" column="8" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,17 +469,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_lims_test_case_2_1.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="339" column="64" selection-start-line="339" selection-start-column="34" selection-end-line="339" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_lims_test_case_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1_login_and_logout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>

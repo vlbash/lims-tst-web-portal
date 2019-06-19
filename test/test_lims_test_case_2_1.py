@@ -5,7 +5,7 @@ def test_lims_test_case_2_1(app):
     app.first_application.create_first_application(pib="Ступка Богдан Сильвестрович",
                                          email="test@test.ua",
                                          phone_number="+380123456789",
-                                         fax_number="+380123456789",
+                                         fax_number="+380123456 789",
                                          city="Дніпро",
                                          flat="13",
                                          street="Тестова вулиця",
@@ -50,6 +50,6 @@ def test_lims_test_case_2_1(app):
                              path_to_file='C:/masloy.png')
     app.first_application.completeness_check()
     app.first_application.notifications_and_license_terms(comment='Коментар тест')
-    app.first_application.submit_application(path_to_key='C:/98745612_7878789898_DU180323123055.ZS2',
-                                   password='111')
+#    app.first_application.submit_application(path_to_key='C:/98745612_7878789898_DU180323123055.ZS2',
+#                                   password='111')
     app.session.logout()
