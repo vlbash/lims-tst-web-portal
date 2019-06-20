@@ -6,8 +6,8 @@ from fixture.first_application import FirstApplicationHelper
 class Application:
 
     def __init__(self):
-        # self.wd = WebDriver(executable_path='tools//chromedriver.exe')
-        self.wd = WebDriver()
+        self.wd = WebDriver(executable_path='/home/ps/MyFiles/projects/lims-tst-web-portal/tools/chromedriver')
+       # self.wd = WebDriver()
         self.wd.maximize_window()
         self.wd.implicitly_wait(30)
         self.session = SessionHelper(self)
