@@ -140,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,9 +335,9 @@
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.session" />
+      <item itemvalue="Python tests.pytest in test_1_login_and_logout.py" />
       <item itemvalue="Python tests.pytest for test_lims_test_case_2_1.test_lims_test_case_2_1" />
       <item itemvalue="Python tests.pytest in test" />
-      <item itemvalue="Python tests.pytest in test_1_login_and_logout.py" />
       <item itemvalue="Python tests.pytest in test_2_login.py" />
       <item itemvalue="Python tests.pytest in test_lims_test_case_2_1.py" />
     </list>
@@ -365,9 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.20 at 15h 06m 25s.xml">
-      <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_1_login_and_logout_py - 2019.06.20 at 15h 11m 13s.xml">
       <configuration name="pytest in test_1_login_and_logout.py" configurationId="tests" />
     </history-entry>
@@ -395,11 +392,15 @@
     <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.21 at 14h 52m 54s.xml">
       <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_lims_test_case_2_1_py - 2019.06.24 at 16h 03m 55s.xml">
+      <configuration name="pytest in test_lims_test_case_2_1.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.16078018" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.16078018" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Message" order="0" />
