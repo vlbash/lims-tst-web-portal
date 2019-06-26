@@ -282,6 +282,8 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «ЗБЕРЕГТИ»
         wd.find_element_by_xpath("//input[@value='Зберегти']").click()
 
+        time.sleep(2)
+
         # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
         wd.find_element_by_xpath("//h1[contains(.,'Заява про отримання ліцензії на провадження діяльності')]")
 
