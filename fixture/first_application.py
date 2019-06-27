@@ -361,5 +361,74 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Підписати»
         wd.find_element_by_xpath("//button[@id='SignDataButton']").click()
 
-        time.sleep(10)
+        time.sleep(2)
 
+##################################################################################################################################################################################
+
+    def create_second_application(self):
+        wd = self.app.wd
+        # У меню з ліва натискаємо пункт «Подання заяв»
+        wd.find_element_by_xpath("//ul[@id='aside-menu']/li[2]/div/a/div/span").click()
+
+        #        time.sleep(3)
+        # Натискаємо кнопку створити заяву (У правому верхньому куті Синій кружочок з білим хрестиком у центрі)
+        wd.find_element_by_xpath("//a[contains(@ href,'/App/AppTypes')]").click()
+
+        # На сторінці Створення нової заяви, на переліку заяв натискаємо «Заява щодо провадження діяльності з виробництва лікарських засобів (промислового)»
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div").click()
+
+        # У вище вказанному переліку заяв обираємо пункт «Заява про отримання ліцензії на провадження діяльності з виробництва лікарських засобів (промислового)» (додаток 2)
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div/div[2]/a[2]").click()
+
+    def create_mpd_second(self, company_name, phone_number, email, fax_number, city, index, street, adress, building):
+        wd = self.app.wd
+        # Натискаємо кнопку «Місця проваждження діяльності»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[2]/i").click()
+
+        # Натискаємо кнопку «Додати МПД» (з верху з права білий хрестик)
+        wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
+
+        # Заповнюємо форми Створення провадження діяльності: Найменування структурного підрозділу (або найменування юридичної особи):* «Тест»
+        wd.find_element_by_xpath("//input[@id='Name']").send_keys(company_name)
+
+        # Заповнюємо форми Створення провадження діяльності: Номер телефону* «+380123456789»
+        wd.find_element_by_xpath("//input[@id='PhoneNumber']").send_keys(phone_number)
+
+        # Заповнюємо форми Створення провадження діяльності: E-mail* «test@test.ua»
+        wd.find_element_by_xpath("//input[@id='EMail']").send_keys(email)
+
+        # Заповнюємо форми Створення провадження діяльності: Номер факсу* «+380123456789»
+        wd.find_element_by_xpath("//input[@id='FaxNumber']").send_keys(fax_number)
+
+        # Заповнюємо форми Створення провадження діяльності: Населений пункт* «Дніпропетровська область, Дніпро»
+        wd.find_element_by_xpath("//input[@id='CityName']").send_keys(city)
+        wd.find_element_by_xpath("//div[contains(.,'Дніпро')]").click()
+
+        # Заповнюємо форми Створення провадження діяльності: Поштовий індекс* «12345»
+        wd.find_element_by_xpath("//input[@id='PostIndex']").send_keys(index)
+
+        # Заповнюємо форми Створення провадження діяльності: Вулиця* (натискаємо синій квадрат з білим хрестиком посередині, зявляеться вікно додавання вулиці, у полі тип вулиці обераємо – проспект, у полі Назва вулиці пишемо «Тест» натискаємо кнопку СТВОРИТИ)
+        wd.find_element_by_xpath("//button[@id='btn-street']").click()
+        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
+        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
+        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[3]/input").send_keys(street)
+        time.sleep(2)
+        wd.find_element_by_xpath("//input[@value='Створити']").click()
+
+        # Заповнюємо форми Створення провадження діяльності: Адреса місця провадження діяльності (англійською)* «Test»
+        wd.find_element_by_xpath("//input[@id='AdressEng']").send_keys(adress)
+
+        # Заповнюємо форми Створення провадження діяльності: Номер будинку, корпус або будівля, номер квартири або офісу* «13»
+        wd.find_element_by_xpath("//input[@id='Building']").send_keys(building)
+
+        time.sleep(2)
+        # Обераємо чекбокс «Виробничі дільниці з переліком лікарських форм*»
+        wd.find_element_by_xpath("//form[@id='editBranch']/div[3]/div/label").click()
+
+        # Обераємо чекбокс «1. ВИРОБНИЧІ ОПЕРАЦІЇ - ЛІКАРСЬКІ ФОРМИ»
+        wd.find_element_by_xpath("//div[@id='content-tree']/ul/li/div/label").click()
+        # Натискаємо кнопку «ЗБЕРЕГТИ»
+        wd.find_element_by_xpath("//input[@id='submitBranch']").click()
+
+        # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
+        # wd.find_element_by_xpath("//h1[contains(.,'Заява про отримання ліцензії на провадження діяльності')]")

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ce5e3ad-740d-497c-ba5c-c0e40b4c126c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/first_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/first_application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_1_login_and_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_2_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -41,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="287" column="110" lean-forward="true" selection-start-line="287" selection-start-column="110" selection-end-line="287" selection-end-column="110" />
+            <state relative-caret-position="-81">
+              <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
             </state>
           </provider>
         </entry>
@@ -111,9 +98,9 @@
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py" />
         <option value="$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py" />
+        <option value="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" />
         <option value="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" />
         <option value="$PROJECT_DIR$/fixture/first_application.py" />
-        <option value="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" />
       </list>
     </option>
   </component>
@@ -351,46 +338,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_1_lims_test_case_1_1__py - 2019.06.26 at 13h 21m 23s.xml">
-      <configuration name="pytest in test_1_lims_test_case_1_1 .py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_2_lims_test_case_1_2_py - 2019.06.26 at 13h 23m 31s.xml">
-      <configuration name="pytest in test_2_lims_test_case_1_2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_2_lims_test_case_1_2_py - 2019.06.26 at 13h 24m 35s.xml">
-      <configuration name="pytest in test_2_lims_test_case_1_2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 13h 29m 19s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 09m 47s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 13h 38m 28s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 12m 33s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 13h 47m 36s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 15m 43s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 17h 35m 06s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 26m 31s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 17h 36m 55s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 28m 40s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.26 at 17h 42m 51s.xml">
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 11h 33m 50s.xml">
       <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.06.26 at 19h 02m 24s.xml">
+    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.06.27 at 11h 37m 40s.xml">
+      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.06.27 at 11h 41m 08s.xml">
+      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_3_lims_test_case_2_1_py - 2019.06.27 at 12h 11m 06s.xml">
+      <configuration name="pytest in test_3_lims_test_case_2_1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.06.27 at 13h 13m 56s.xml">
       <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.1548999" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.1548999" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6002167" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2654388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/test/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="287" column="110" lean-forward="true" selection-start-line="287" selection-start-column="110" selection-end-line="287" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -504,17 +485,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py">
+    <entry file="file://$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="494">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py">
+    <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="-81">
+          <caret line="398" lean-forward="true" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
