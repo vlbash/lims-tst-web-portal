@@ -273,6 +273,7 @@ class FirstApplicationHelper:
         # Заповнюємо форми Редагування досьє: Оберіть МПД «Тест»
         wd.find_element_by_xpath("//button[@type='button']").click()
         wd.find_element_by_xpath("//div[@id='ms-list-1']/div/ul/li/label").click()
+        wd.find_element_by_xpath("//button[@type='button']").click()
 
         # Заповнюємо форми Редагування досьє: На формі «Додайте файли до картки досьє» натисувємо кнопку прикріпити файл (з ліва синій квадрат з білою скріпкою)
         # потім натискаємо кнопку збереження файлу (з права синій квадрат з зображенням дискети білого кольору)
@@ -356,7 +357,7 @@ class FirstApplicationHelper:
         time.sleep(20)
         # ЩОБ ПІДПИСАТИ ТА ВІДПРАВИТИ ЗАЯВУ, ДАЙТЕ ЗГОДУ НА ПІДПИСАННЯ НАСТУПНИХ ФАЙЛІВ:
         # Обераємо Чекбокс  «Вибрати всі файли»
-        wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[4]/div[2]/label").click()
+        # wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[4]/div[2]/label").click()
 
         # Натискаємо кнопку «Підписати»
         wd.find_element_by_xpath("//button[@id='SignDataButton']").click()
@@ -432,3 +433,147 @@ class FirstApplicationHelper:
 
         # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
         # wd.find_element_by_xpath("//h1[contains(.,'Заява про отримання ліцензії на провадження діяльності')]")
+
+    def authorized_persons_second(self, person_name, person_middle_name, person_last_name, person_ipn, person_birthday,
+                           education, graduation_year, diplom_number, graduation_date, speciality, work_expirience,
+                           contract_number, order_number, date_contract, date_appointment, position,
+                           contact_information, comment):
+        wd = self.app.wd
+
+        # Натискаємо кнопку «Уповноважені особи»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[4]/i").click()
+
+        # Натискаємо кнопку «Додати уповноважену особу» (з верху з права білий хрестик)
+        wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
+
+        # Заповнюємо форми Створення уповноваженної особи: Ім'я* «Тест»
+        wd.find_element_by_xpath("//input[@id='Name']").send_keys(person_name)
+
+        # Заповнюємо форми Створення уповноваженної особи: По батькові* «Тестович»
+        wd.find_element_by_xpath("//input[@id='MiddleName']").send_keys(person_middle_name)
+
+        # Заповнюємо форми Створення уповноваженної особи: Прізвище* «Тестов»
+        wd.find_element_by_xpath("//input[@id='LastName']").send_keys(person_last_name)
+
+        # Заповнюємо форми Створення уповноваженної особи: ІПН «» (10 цифр)
+        wd.find_element_by_xpath("//input[@id='IPN']").send_keys(person_ipn)
+
+        # Заповнюємо форми Створення уповноваженної особи: Дата народження* «13.12.1986»
+        wd.find_element_by_xpath("//input[@id='Birthday']").send_keys(person_birthday)
+
+        # Заповнюємо форми Створення уповноваженної особи: Найменування навчального закладу «»
+        wd.find_element_by_xpath("//input[@id='EducationInstitution']").send_keys(education)
+
+        # Заповнюємо форми Створення уповноваженної особи: Рік закінчення навчального закладу «2004»
+        wd.find_element_by_xpath("//input[@id='YearOfGraduation']").send_keys(graduation_year)
+
+        # Заповнюємо форми Створення уповноваженної особи: Серія і номер диплому* «АП1312»
+        wd.find_element_by_xpath("//input[@id='NumberOfDiploma']").send_keys(diplom_number)
+
+        # Заповнюємо форми Створення уповноваженної особи: Дата видачі диплому* «13.12.2004»
+        wd.find_element_by_xpath("//input[@id='DateOfGraduation']").send_keys(graduation_date)
+
+        # Заповнюємо форми Створення уповноваженної особи: Спеціальність «Тест»
+        wd.find_element_by_xpath("//input[@id='Speciality']").send_keys(speciality)
+
+        # Заповнюємо форми Створення уповноваженної особи: Стаж роботи за фахом(місяців) «95»
+        wd.find_element_by_xpath("//input[@id='WorkExperience']").send_keys(work_expirience)
+
+        # Заповнюємо форми Створення уповноваженної особи: Номер трудового договору «12345»
+        wd.find_element_by_xpath("//input[@id='NumberOfContract']").send_keys(contract_number)
+
+        # Заповнюємо форми Створення уповноваженної особи: Номер наказу про покладання обов'язків 23456
+        wd.find_element_by_xpath("//input[@id='OrderNumber']").send_keys(order_number)
+
+        # Заповнюємо форми Створення уповноваженної особи: Дата трудового договору «14.12.2004»
+        wd.find_element_by_xpath("//input[@id='DateOfContract']").send_keys(date_contract)
+
+        # Заповнюємо форми Створення уповноваженної особи: Дата наказу про покладання обовєязків «14.12.2004»
+        wd.find_element_by_xpath("//input[@id='DateOfAppointment']").send_keys(date_appointment)
+
+        # Заповнюємо форми Створення уповноваженної особи: Посада «Тест директор»
+        wd.find_element_by_xpath("//input[@id='NameOfPosition']").send_keys(position)
+
+        # Заповнюємо форми Створення уповноваженної особи: Контактна інформація «12345»
+        wd.find_element_by_xpath("//input[@id='ContactInformation']").send_keys(contact_information)
+
+        # Заповнюємо форми Створення уповноваженної особи: Оберіть МПД «Тест»
+        wd.find_element_by_xpath("//button[@type='button']").click()
+        wd.find_element_by_xpath("//div[@id='ms-list-1']/div/ul/li/label").click()
+
+        # Заповнюємо форми Створення уповноваженної особи: Коментар «Тест коментар»
+        wd.find_element_by_xpath("//input[@id='Comment']").send_keys(comment)
+
+        # Клік
+        wd.find_element_by_xpath("//div[@id='header-wrapper']").click()
+
+        time.sleep(3)
+
+        # Натискаємо кнопку «ЗБЕРЕГТИ»
+        wd.find_element_by_xpath("//input[@value='Зберегти']").click()
+
+        # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
+        wd.find_element_by_xpath("//h1[contains(.,'Додавання МПД')]")
+
+
+    def dossier_file_second(self, version, comment, date_to, path_to_file):
+        wd = self.app.wd
+
+        # Натискаємо кнопку «Досьє»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[5]/i").click()
+
+        # Натискаємо кнопку «Додати досьє» (з верху з права білий хрестик)
+        wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
+
+        # Заповнюємо форми Редагування досьє: Назва/Версія «Тест досьє»
+        wd.find_element_by_xpath("//input[@id='Version']").send_keys(version)
+
+        # Заповнюємо форми Редагування досьє: Коментар «Тест коментар»
+        wd.find_element_by_xpath("//input[@id='Comment']").send_keys(comment)
+
+        # Заповнюємо форми Редагування досьє: Дата з «01.01.2019»
+        # wd.find_element_by_xpath("//input[@id='DateFrom']").send_keys('01.01.2019')
+
+        # Заповнюємо форми Редагування досьє: Дата до «19.04.2025»
+        wd.find_element_by_xpath("//input[@id='DateTo']").send_keys(date_to)
+
+        # Заповнюємо форми Редагування досьє: Оберіть МПД «Тест»
+        wd.find_element_by_xpath("//button[@type='button']").click()
+        wd.find_element_by_xpath("//div[@id='ms-list-1']/div/ul/li/label").click()
+
+        # Заповнюємо форми Редагування досьє: На формі «Додайте файли до картки досьє» натисувємо кнопку прикріпити файл (з ліва синій квадрат з білою скріпкою)
+        # потім натискаємо кнопку збереження файлу (з права синій квадрат з зображенням дискети білого кольору)
+        wd.find_element_by_xpath("//input[@id='files']").send_keys(path_to_file)
+        wd.find_element_by_xpath("//div[@id='uploadForm']/form/div[3]/button/i").click()
+
+        time.sleep(2)
+
+        # Натискаємо кнопку «ЗБЕРЕГТИ»
+        wd.find_element_by_xpath("//input[@value='Зберегти']").click()
+
+        time.sleep(2)
+
+        # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
+        wd.find_element_by_xpath("//h1[contains(.,'Додавання МПД')]")
+
+    def notifications_and_license_terms_second(self, comment):
+        wd = self.app.wd
+        # Натискаємо кнопку «Досьє»
+
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[7]/i").click()
+
+        # wd.find_element_by_css_selector(".icon-msg-envelope").click()
+        # Обераємо наступні чекбокси: «Прошу за місцем/місцями провадження господарської діяльності провести перевірку матеріально-технічної бази,
+        # кваліфікованого персоналу, а також умов щодо контролю якості лікарських засобів, що вироблятимуться»
+        # Додатково до електронної форми бажаю отримати ліцензію на паперовому носії: «Нарочно»
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div/label").click()
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div[2]/div[2]/label").click()
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div[3]/div[2]/label").click()
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div[3]/div[3]/label").click()
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div[3]/div[4]/label").click()
+        # wd.find_element_by_xpath("//div[@id='content']/div[2]/div[7]/div[3]/div/div[4]/div[4]/label").click()
+        wd.find_element_by_xpath("//textarea[@id='Comment']").send_keys(comment)
+
+        wd.find_element_by_xpath("//button[@id='scroll-top']").click()
+
+        time.sleep(2)
