@@ -52,12 +52,16 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//input[@id='Building']").send_keys(flat)
 
         # Заповнюємо форму: Вулиця* (натискаємо синій квадрат з білим хрестиком посередині, зявляеться вікно додавання, у полі тип вулиці обераємо – проспект, у полі Назва вулиці пишемо «Тест» натискаємо кнопку СТВОРИТИ)
-        wd.find_element_by_xpath("//button[@id='btn-street']").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
-        wd.find_element_by_xpath("//input[@id='Name']").send_keys(street)
-        time.sleep(1)
-        wd.find_element_by_xpath("//input[@value='Створити']").click()
+#        wd.find_element_by_xpath("//button[@id='btn-street']").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
+#        wd.find_element_by_xpath("//input[@id='Name']").send_keys(street)
+#        time.sleep(1)
+#        wd.find_element_by_xpath("//input[@value='Створити']").click()
+
+        wd.find_element_by_xpath("//input[@id='StreetName']").send_keys("Тестова")
+        time.sleep(2)
+        wd.find_element_by_xpath("//div[contains(.,'вул. Тестова Вулиця')]").click()
 
         # Заповнюємо форму: Поштовий індекс* «12345»
         wd.find_element_by_xpath("//input[@id='PostIndex']").send_keys(index)
@@ -77,7 +81,7 @@ class FirstApplicationHelper:
 
         # Заповнюємо форму: D-U-N-S номер (за наявності) «56789»
         wd.find_element_by_xpath("//input[@id='Duns']").send_keys(duns_number)
-        time.sleep(2)
+        time.sleep(3)
         # Натискаємо кнопку «ЗБЕРЕГТИ»
         wd.find_element_by_xpath("//input[@value='Зберегти']").click()
 
@@ -112,12 +116,16 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//input[@id='PostIndex']").send_keys(index)
 
         # Заповнюємо форми Створення провадження діяльності: Вулиця* (натискаємо синій квадрат з білим хрестиком посередині, зявляеться вікно додавання вулиці, у полі тип вулиці обераємо – проспект, у полі Назва вулиці пишемо «Тест» натискаємо кнопку СТВОРИТИ)
-        wd.find_element_by_xpath("//button[@id='btn-street']").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[3]/input").send_keys(street)
+#        wd.find_element_by_xpath("//button[@id='btn-street']").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[3]/input").send_keys(street)
+#        time.sleep(2)
+#        wd.find_element_by_xpath("//input[@value='Створити']").click()
+
+        wd.find_element_by_xpath("//input[@id='StreetName']").send_keys("Тестова")
         time.sleep(2)
-        wd.find_element_by_xpath("//input[@value='Створити']").click()
+        wd.find_element_by_xpath("//div[contains(.,'вул. Тестова Вулиця')]").click()
 
         # Заповнюємо форми Створення провадження діяльності: Адреса місця провадження діяльності (англійською)* «Test»
         wd.find_element_by_xpath("//input[@id='AdressEng']").send_keys(adress)
@@ -141,6 +149,8 @@ class FirstApplicationHelper:
         wd = self.app.wd
         # Натискаємо кнопку «Контрактні контрагенти»
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[3]/i").click()
+
+        time.sleep(2)
 
         # Натискаємо кнопку «Додати Контрактного контрагента» (з верху з права білий хрестик)
         wd.find_element_by_xpath("//div[@id='content-btn']/a[2]").click()
@@ -176,6 +186,8 @@ class FirstApplicationHelper:
 
         # Натискаємо кнопку «Уповноважені особи»
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[4]/i").click()
+
+        time.sleep(2)
 
         # Натискаємо кнопку «Додати уповноважену особу» (з верху з права білий хрестик)
         wd.find_element_by_xpath("//div[@id='content-btn']/a[2]").click()
@@ -247,7 +259,7 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//input[@value='Зберегти']").click()
 
         # Перевірка переходу на сторінку "Заява про отримання ліцензії на провадження діяльності"
-        wd.find_element_by_xpath("//h1[contains(.,'Заява про отримання ліцензії на провадження діяльності')]")
+        # wd.find_element_by_xpath("//h1[contains(.,'Заява про отримання ліцензії на провадження діяльності')]")
 
     def dossier_file(self, version, comment, date_to, path_to_file):
         wd = self.app.wd
@@ -255,8 +267,10 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Досьє»
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[5]/i").click()
 
+        time.sleep(2)
+
         # Натискаємо кнопку «Додати досьє» (з верху з права білий хрестик)
-        wd.find_element_by_xpath("//div[@id='content-btn']/a[2]").click()
+        wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
 
         # Заповнюємо форми Редагування досьє: Назва/Версія «Тест досьє»
         wd.find_element_by_xpath("//input[@id='Version']").send_keys(version)
@@ -335,12 +349,15 @@ class FirstApplicationHelper:
         time.sleep(10)
 
         # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): Оберіть ЦСК «АЦСК ПАТ КБ «ПРИВАТБАНК
-        wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[2]/div[2]/div/div").click()
+#        wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[2]/div[2]/div/div").click()
+        wd.find_element_by_xpath("//select[@id='CAsServersSelect']").click()
 
         # wd.find_element_by_xpath("//span[contains(.,'Україна')]").click()
         # //li[@class='select-item'][14]
 
-        wd.find_element_by_xpath("//li[@class='select-item'][14]").click()
+        # wd.find_element_by_xpath("//li[@class='select-item'][14]").click()
+
+        wd.find_element_by_xpath("//option[contains(.,'Україна')]").click()
 
         # element = wd.find_element_by_xpath("//span[contains(.,'Україна')]").click
         # hover = ActionChains(wd).move_to_element(element)
@@ -409,12 +426,16 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//input[@id='PostIndex']").send_keys(index)
 
         # Заповнюємо форми Створення провадження діяльності: Вулиця* (натискаємо синій квадрат з білим хрестиком посередині, зявляеться вікно додавання вулиці, у полі тип вулиці обераємо – проспект, у полі Назва вулиці пишемо «Тест» натискаємо кнопку СТВОРИТИ)
-        wd.find_element_by_xpath("//button[@id='btn-street']").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
-        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[3]/input").send_keys(street)
+#        wd.find_element_by_xpath("//button[@id='btn-street']").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/div").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[2]/div/ul/li[2]/span").click()
+#        wd.find_element_by_xpath("//div[@id='modal']/div/div[2]/form/div[3]/input").send_keys(street)
+#        time.sleep(2)
+#        wd.find_element_by_xpath("//input[@value='Створити']").click()
+
+        wd.find_element_by_xpath("//input[@id='StreetName']").send_keys("Тестова вулиця")
         time.sleep(2)
-        wd.find_element_by_xpath("//input[@value='Створити']").click()
+        wd.find_element_by_xpath("//div[contains(.,'Тестова Вулиця')]").click()
 
         # Заповнюємо форми Створення провадження діяльності: Адреса місця провадження діяльності (англійською)* «Test»
         wd.find_element_by_xpath("//input[@id='AdressEng']").send_keys(adress)
@@ -559,6 +580,8 @@ class FirstApplicationHelper:
     def notifications_and_license_terms_second(self, comment):
         wd = self.app.wd
         # Натискаємо кнопку «Досьє»
+
+        time.sleep(2)
 
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[7]/i").click()
 

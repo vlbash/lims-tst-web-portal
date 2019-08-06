@@ -9,20 +9,24 @@ class Application:
         # self.wd = WebDriver(executable_path='tools//chromedriver.exe')
         self.wd = WebDriver()
         self.wd.maximize_window()
-        self.wd.implicitly_wait(30)
+        self.wd.implicitly_wait(15)
         self.session = SessionHelper(self)
         self.first_application = FirstApplicationHelper(self)
 
     def open_home_page(self):
         wd = self.wd
 # Dev
-        wd.get('http://lims-dev-web-portal.bitsoft.com.ua')
+#        wd.get('http://lims-dev-web-portal.bitsoft.com.ua')
 
 # Prod
 #        wd.get('http://lims-web-portal.bitsoft.group/')
 
 # Stage
 #        wd.get('http://stage-lims-portal.bitsoft.group')
+
+#        wd.get('http://stage-diklz-portal.bitsoft.com.ua')
+
+        wd.get('http://test-diklz-portal.bitsoft.com.ua/')
 
     def destroy(self):
         self.wd.quit()
