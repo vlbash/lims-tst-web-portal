@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8ce5e3ad-740d-497c-ba5c-c0e40b4c126c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/first_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/first_application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,28 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py">
+        <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret lean-forward="true" />
+            <state relative-caret-position="359">
+              <caret line="785" column="64" selection-start-line="785" selection-start-column="34" selection-end-line="785" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
+        <entry file="file://$PROJECT_DIR$/test/test_7_lims_test_case_2_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="352" selection-start-line="352" selection-end-line="352" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -47,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-91">
+              <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -56,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="238">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -86,6 +80,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create_second_application</find>
+      <find>submit_application</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -105,12 +105,15 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/test/test_2_login.py" />
         <option value="$PROJECT_DIR$/test/test_lims_test_case_2_1.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py" />
         <option value="$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py" />
         <option value="$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py" />
         <option value="$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/test_5_lims_test_case_2_3.py" />
+        <option value="$PROJECT_DIR$/test/test_6_lims_test_case_2_4.py" />
         <option value="$PROJECT_DIR$/fixture/first_application.py" />
+        <option value="$PROJECT_DIR$/test/test_7_lims_test_case_2_5.py" />
       </list>
     </option>
   </component>
@@ -150,17 +153,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PS\Documents\GitHub\lims-tst-web-portal\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PS\Documents\GitHub\lims-tst-web-portal" />
       <recent name="C:\Users\PS\Documents\GitHub\lims-tst-web-portal\test" />
       <recent name="C:\Users\PS\Documents\GitHub\lims-tst-web-portal\fixture" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PS\Documents\GitHub\lims-tst-web-portal\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_4_lims_test_case_2_2.py">
+  <component name="RunManager" selected="Python tests.pytest in test_7_lims_test_case_2_5.py">
     <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="lims-tst-web-portal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,42 +221,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="lims-tst-web-portal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/selenium_course" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/selenium_course/get_method.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="lims-tst-web-portal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_1_lims_test_case_1_1 .py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="lims-tst-web-portal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,21 +233,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_2_lims_test_case_1_2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="lims-tst-web-portal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -314,23 +266,68 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_5_lims_test_case_2_3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lims-tst-web-portal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_5_lims_test_case_2_3.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_6_lims_test_case_2_4.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lims-tst-web-portal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_6_lims_test_case_2_4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_7_lims_test_case_2_5.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="lims-tst-web-portal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_7_lims_test_case_2_5.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed (1)" />
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.get_method" />
       <item itemvalue="Python tests.pytest in test_1_lims_test_case_1_1 .py" />
-      <item itemvalue="Python tests.pytest in test" />
-      <item itemvalue="Python tests.pytest in test_2_lims_test_case_1_2.py" />
       <item itemvalue="Python tests.pytest in test_3_lims_test_case_2_1.py" />
       <item itemvalue="Python tests.pytest in test_4_lims_test_case_2_2.py" />
+      <item itemvalue="Python tests.pytest in test_5_lims_test_case_2_3.py" />
+      <item itemvalue="Python tests.pytest in test_6_lims_test_case_2_4.py" />
+      <item itemvalue="Python tests.pytest in test_7_lims_test_case_2_5.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_7_lims_test_case_2_5.py" />
+        <item itemvalue="Python tests.pytest in test_6_lims_test_case_2_4.py" />
+        <item itemvalue="Python tests.pytest in test_5_lims_test_case_2_3.py" />
         <item itemvalue="Python tests.pytest in test_4_lims_test_case_2_2.py" />
         <item itemvalue="Python tests.pytest in test_3_lims_test_case_2_1.py" />
-        <item itemvalue="Python tests.pytest in test_2_lims_test_case_1_2.py" />
-        <item itemvalue="Python.get_method" />
-        <item itemvalue="Python tests.pytest in test" />
       </list>
     </recent_temporary>
   </component>
@@ -348,46 +345,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 15h 31m 17s.xml">
+    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.07 at 12h 33m 37s.xml">
       <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 15h 34m 07s.xml">
+    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.07 at 12h 42m 36s.xml">
       <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 15h 45m 26s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_5_lims_test_case_2_3_py - 2019.08.07 at 12h 56m 55s.xml">
+      <configuration name="pytest in test_5_lims_test_case_2_3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 04m 11s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_5_lims_test_case_2_3_py - 2019.08.07 at 13h 00m 54s.xml">
+      <configuration name="pytest in test_5_lims_test_case_2_3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 09m 38s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_6_lims_test_case_2_4_py - 2019.08.07 at 14h 17m 22s.xml">
+      <configuration name="pytest in test_6_lims_test_case_2_4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 12m 38s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_6_lims_test_case_2_4_py - 2019.08.07 at 14h 19m 18s.xml">
+      <configuration name="pytest in test_6_lims_test_case_2_4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 13m 47s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_6_lims_test_case_2_4_py - 2019.08.07 at 14h 22m 08s.xml">
+      <configuration name="pytest in test_6_lims_test_case_2_4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 16m 15s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_6_lims_test_case_2_4_py - 2019.08.07 at 14h 27m 28s.xml">
+      <configuration name="pytest in test_6_lims_test_case_2_4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 21m 55s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_6_lims_test_case_2_4_py - 2019.08.07 at 14h 29m 52s.xml">
+      <configuration name="pytest in test_6_lims_test_case_2_4.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_4_lims_test_case_2_2_py - 2019.08.05 at 16h 55m 42s.xml">
-      <configuration name="pytest in test_4_lims_test_case_2_2.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_7_lims_test_case_2_5_py - 2019.08.07 at 15h 08m 13s.xml">
+      <configuration name="pytest in test_7_lims_test_case_2_5.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859154" visible="true" weight="0.12328767" />
       <window_info id="Structure" order="1" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info id="Favorites" order="2" sideWeight="0.50140846" side_tool="true" weight="0.12802951" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47562298" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33802816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,31 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Downloads/python-starter-materials/Lesson 1. Introduction to Python/001_Examples/00-hello.py" />
-    <entry file="file://$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/selenium_course/get_method.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -491,10 +468,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-91">
+          <caret line="19" column="75" lean-forward="true" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -510,32 +494,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="238">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_1_lims_test_case_1_1 .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_2_lims_test_case_1_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_3_lims_test_case_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_4_lims_test_case_2_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret lean-forward="true" />
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_5_lims_test_case_2_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_6_lims_test_case_2_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/first_application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        <state relative-caret-position="359">
+          <caret line="785" column="64" selection-start-line="785" selection-start-column="34" selection-end-line="785" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_7_lims_test_case_2_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>

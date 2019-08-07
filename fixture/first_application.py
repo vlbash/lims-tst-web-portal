@@ -1,6 +1,4 @@
 import time
-# from selenium.webdriver import ActionChains
-
 
 class FirstApplicationHelper:
 
@@ -346,7 +344,21 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Підписати і відправити заяву»
         wd.find_element_by_xpath("//a[@id='signButton']/span[2]").click()
 
-        time.sleep(10)
+        time.sleep(3)
+
+
+
+#        alert = driver.switch_to_alert()
+#        alert.accept()
+
+#        alert = wd.switch_to_alert()
+#        alert.accept()
+
+        wd.switch_to_alert().accept()
+#        wd.switch_to_alert().accept()
+
+        time.sleep(7)
+
 
         # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): Оберіть ЦСК «АЦСК ПАТ КБ «ПРИВАТБАНК
 #        wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[2]/div[2]/div/div").click()
@@ -371,7 +383,7 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//input[@id='PKeyPassword']").send_keys(password)
         # Натискаємо кнопку «Зчитати»
         wd.find_element_by_xpath("//button[@id='PKeyReadButton']").click()
-        time.sleep(20)
+        time.sleep(10)
         # ЩОБ ПІДПИСАТИ ТА ВІДПРАВИТИ ЗАЯВУ, ДАЙТЕ ЗГОДУ НА ПІДПИСАННЯ НАСТУПНИХ ФАЙЛІВ:
         # Обераємо Чекбокс  «Вибрати всі файли»
         # wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[4]/div[2]/label").click()
@@ -379,9 +391,9 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Підписати»
         wd.find_element_by_xpath("//button[@id='SignDataButton']").click()
 
-        time.sleep(2)
+        time.sleep(5)
 
-##################################################################################################################################################################################
+################################################################################################################################################################################## 2
 
     def create_second_application(self):
         wd = self.app.wd
@@ -464,6 +476,8 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Уповноважені особи»
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[4]/i").click()
 
+        time.sleep(1)
+
         # Натискаємо кнопку «Додати уповноважену особу» (з верху з права білий хрестик)
         wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
 
@@ -543,6 +557,8 @@ class FirstApplicationHelper:
         # Натискаємо кнопку «Досьє»
         wd.find_element_by_xpath("//div[@id='content-switcher']/a[5]/i").click()
 
+        time.sleep(2)
+
         # Натискаємо кнопку «Додати досьє» (з верху з права білий хрестик)
         wd.find_element_by_xpath("//div[@id='content-btn']/a").click()
 
@@ -600,3 +616,207 @@ class FirstApplicationHelper:
         wd.find_element_by_xpath("//button[@id='scroll-top']").click()
 
         time.sleep(2)
+
+################################################################################################################################################################################## 3
+
+    def create_third_application(self):
+        wd = self.app.wd
+        # У меню з ліва натискаємо пункт «Подання заяв»
+        wd.find_element_by_xpath("//ul[@id='aside-menu']/li[2]/div/a/div/span").click()
+
+        #        time.sleep(3)
+        # Натискаємо кнопку створити заяву (У правому верхньому куті Синій кружочок з білим хрестиком у центрі)
+        wd.find_element_by_xpath("//a[contains(@ href,'/App/AppTypes')]").click()
+
+        # На сторінці Створення нової заяви, на переліку заяв натискаємо «Заява щодо провадження діяльності з виробництва лікарських засобів (промислового)»
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div").click()
+
+        # У вище вказанному переліку заяв обираємо пункт «Заява про отримання ліцензії на провадження діяльності з виробництва лікарських засобів (промислового)» (додаток 2)
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div/div[2]/a[3]").click()
+
+    def change_mpd_third(self):
+        wd = self.app.wd
+        # Натискаємо кнопку «Місця проваждження діяльності»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[2]/i").click()
+
+        # Обираємо перший «МПД»
+        wd.find_element_by_xpath("//div[@class='content-list'][1]").click()
+
+        # Обираємо перший «МПД»
+        wd.find_element_by_xpath("//*[text()='2. ВИРОБНИЧІ ОПЕРАЦІЇ - АКТИВНІ ФАРМАЦЕВТИЧНІ ІНГРЕДІЄНТИ']").click()
+
+        # Натискаємо кнопку «ЗБЕРЕГТИ»
+        wd.find_element_by_xpath("//input[@id='submitBranch2']").click()
+
+        time.sleep(1)
+
+    def notifications_and_license_terms_third(self, comment):
+        wd = self.app.wd
+
+        time.sleep(1)
+
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[5]/i").click()
+
+        # wd.find_element_by_css_selector(".icon-msg-envelope").click()
+        # Обераємо наступні чекбокси: «Прошу за місцем/місцями провадження господарської діяльності провести перевірку матеріально-технічної бази,
+        # кваліфікованого персоналу, а також умов щодо контролю якості лікарських засобів, що вироблятимуться»
+        # Додатково до електронної форми бажаю отримати ліцензію на паперовому носії: «Нарочно»
+        wd.find_element_by_xpath("//*[contains(text(), 'провести перевірку матеріально-технічної бази')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'за місцезнаходженням/місцем ')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'З порядком отримання ліцензії ознайомлений.')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'Згоден на обробку персональних даних')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'На виконання вимог Закону України')]").click()
+        wd.find_element_by_xpath("//textarea[@id='Comment']").send_keys(comment)
+
+        wd.find_element_by_xpath("//button[@id='scroll-top']").click()
+
+        time.sleep(1)
+
+    def submit_application_third(self, path_to_key, password):
+        wd = self.app.wd
+        # Натискаємо кнопку «Подання заяви»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[6]/i").click()
+
+        # Натискаємо кнопку «Підписати і відправити заяву»
+        wd.find_element_by_xpath("//a[@id='signButton']/span[2]").click()
+
+        time.sleep(2)
+
+        wd.switch_to_alert().accept()
+
+        time.sleep(5)
+
+        # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): Оберіть ЦСК «АЦСК ТОВ "Центр сертифікації ключів "Україна"
+        wd.find_element_by_xpath("//select[@id='CAsServersSelect']").click()
+
+        wd.find_element_by_xpath("//option[contains(.,'Україна')]").click()
+
+        # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): ОБЕРІТЬ ФАЙЛ З ОСОБИСТИМ КЛЮЧЕМ (ЗАЗВИЧАЙ З ІМ'ЯМ KEY-6.DAT) ТА ВКАЖІТЬ ПАРОЛЬ ЗАХИСТУ
+        # Path
+        wd.find_element_by_xpath("//input[@id='PKeyFileInput']").send_keys(path_to_key)
+        # Пароль захисту ключа: «password»
+        wd.find_element_by_xpath("//input[@id='PKeyPassword']").send_keys(password)
+        # Натискаємо кнопку «Зчитати»
+        wd.find_element_by_xpath("//button[@id='PKeyReadButton']").click()
+        time.sleep(10)
+        # ЩОБ ПІДПИСАТИ ТА ВІДПРАВИТИ ЗАЯВУ, ДАЙТЕ ЗГОДУ НА ПІДПИСАННЯ НАСТУПНИХ ФАЙЛІВ:
+        # Обераємо Чекбокс  «Вибрати всі файли»
+        # wd.find_element_by_xpath("//div[@id='MainPageMenuPKeyPage']/div[4]/div[2]/label").click()
+
+        # Натискаємо кнопку «Підписати»
+        wd.find_element_by_xpath("//button[@id='SignDataButton']").click()
+
+        time.sleep(5)
+
+################################################################################################################################################################################## 4
+
+    def create_fourth_application(self):
+        wd = self.app.wd
+        # У меню з ліва натискаємо пункт «Подання заяв»
+        wd.find_element_by_xpath("//ul[@id='aside-menu']/li[2]/div/a/div/span").click()
+
+        #        time.sleep(3)
+        # Натискаємо кнопку створити заяву (У правому верхньому куті Синій кружочок з білим хрестиком у центрі)
+        wd.find_element_by_xpath("//a[contains(@ href,'/App/AppTypes')]").click()
+
+        # На сторінці Створення нової заяви, на переліку заяв натискаємо «Заява щодо провадження діяльності з виробництва лікарських засобів (промислового)»
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div").click()
+
+        # У вище вказанному переліку заяв обираємо пункт «Заява про звуження переліку МПД» (додаток 16)
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div/div[2]/a[4]").click()
+
+    def delete_mpd_fourth(self):
+        wd = self.app.wd
+        # Натискаємо кнопку «Місця проваждження діяльності»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[2]/i").click()
+
+        # Обираємо перший «МПД» (Помітка на видалення)
+        wd.find_element_by_xpath("//label[@class='control-label']").click()
+
+        time.sleep(1)
+
+    def notifications_and_license_terms_fourth(self, comment):
+        wd = self.app.wd
+
+        time.sleep(1)
+
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[4]/i").click()
+
+        # Обераємо наступні чекбокси: «Про рішення, прийняте за результатами розгляду цієї заяви, прошу повідомити:»
+        # «Нарочно»
+        wd.find_element_by_xpath("//*[contains(text(), 'Поштовим відправленням')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'З порядком отримання ліцензії ознайомлений.')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'Згоден на обробку персональних даних')]").click()
+        wd.find_element_by_xpath("//*[contains(text(), 'На виконання вимог Закону України')]").click()
+        wd.find_element_by_xpath("//textarea[@id='Comment']").send_keys(comment)
+
+        wd.find_element_by_xpath("//button[@id='scroll-top']").click()
+
+        time.sleep(1)
+
+    def submit_application_fourth(self, path_to_key, password):
+        wd = self.app.wd
+        # Натискаємо кнопку «Подання заяви»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[5]/i").click()
+
+        # Натискаємо кнопку «Підписати і відправити заяву»
+        wd.find_element_by_xpath("//a[@id='signButton']/span[2]").click()
+
+        time.sleep(2)
+
+        wd.switch_to_alert().accept()
+
+        time.sleep(5)
+
+        # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): Оберіть ЦСК «АЦСК ТОВ "Центр сертифікації ключів "Україна"
+        wd.find_element_by_xpath("//select[@id='CAsServersSelect']").click()
+
+        wd.find_element_by_xpath("//option[contains(.,'Україна')]").click()
+
+        # Заповнюємо форми Ідентифікація за електронним підписом: Встановлення особистого ключа (ще раз): ОБЕРІТЬ ФАЙЛ З ОСОБИСТИМ КЛЮЧЕМ (ЗАЗВИЧАЙ З ІМ'ЯМ KEY-6.DAT) ТА ВКАЖІТЬ ПАРОЛЬ ЗАХИСТУ
+        # Path
+        wd.find_element_by_xpath("//input[@id='PKeyFileInput']").send_keys(path_to_key)
+        # Пароль захисту ключа: «password»
+        wd.find_element_by_xpath("//input[@id='PKeyPassword']").send_keys(password)
+        # Натискаємо кнопку «Зчитати»
+        wd.find_element_by_xpath("//button[@id='PKeyReadButton']").click()
+        time.sleep(10)
+
+        # Натискаємо кнопку «Підписати»
+        wd.find_element_by_xpath("//button[@id='SignDataButton']").click()
+
+        time.sleep(5)
+
+################################################################################################################################################################################## 5
+
+
+    def create_fifth_application(self):
+        wd = self.app.wd
+        # У меню з ліва натискаємо пункт «Подання заяв»
+        wd.find_element_by_xpath("//ul[@id='aside-menu']/li[2]/div/a/div/span").click()
+
+        #        time.sleep(3)
+        # Натискаємо кнопку створити заяву (У правому верхньому куті Синій кружочок з білим хрестиком у центрі)
+        wd.find_element_by_xpath("//a[contains(@ href,'/App/AppTypes')]").click()
+
+        # На сторінці Створення нової заяви, на переліку заяв натискаємо «Заява щодо провадження діяльності з виробництва лікарських засобів (промислового)»
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div").click()
+
+        # У вище вказанному переліку заяв обираємо пункт «Заява про звуження переліку лікарських форм» (додаток 16)
+        wd.find_element_by_xpath("//div[@id='content']/div[2]/div/div/div[2]/a[5]").click()
+
+    def change_mpd_fifth(self):
+        wd = self.app.wd
+        # Натискаємо кнопку «Місця проваждження діяльності»
+        wd.find_element_by_xpath("//div[@id='content-switcher']/a[2]/i").click()
+
+        # Обираємо перший «МПД»
+        wd.find_element_by_xpath("//div[@class='content-list'][1]").click()
+
+        # Обираємо пункт на видалення
+        wd.find_element_by_xpath("//*[text()='1.4.2. Стерилізація активних речовин/допоміжних речовин/готової продукції']").click()
+
+        # Натискаємо кнопку «ЗБЕРЕГТИ»
+        wd.find_element_by_xpath("//input[@id='submitBranch2']").click()
+
+        time.sleep(1)

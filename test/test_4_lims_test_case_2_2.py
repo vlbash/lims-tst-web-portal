@@ -1,3 +1,4 @@
+# ЗАЯВА ПРО ВНЕСЕННЯ ДО ЄДР ВІДОМОСТЕЙ ПРО МІСЦЕ ПРОВАДЖЕННЯ ГОСПОДАРСЬКОЇ ДІЯЛЬНОСТІ - ДОДАВАННЯ МПД(ВИРОБНИЦТВО)
 
 def test_4_lims_test_case_2_2(app):
     app.session.login(password='111',
@@ -42,15 +43,5 @@ def test_4_lims_test_case_2_2(app):
                                              password='111')
     app.session.logout()
 
-    """
-    app.first_application.contract_contractors(edrpou='12345678',
-                                     name_contractor='Тест',
-                                     adress='Тест')
-   
-    
-    app.first_application.submit_application(path_to_key='C:/98745612_7878789898_DU180323123055.ZS2',
-                                   password='111')
-                                   
-    """
 
 
