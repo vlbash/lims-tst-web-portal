@@ -21,12 +21,14 @@ class Application:
 # Prod
 #        wd.get('http://lims-web-portal.bitsoft.group/')
 
-# Stage
-#        wd.get('http://stage-lims-portal.bitsoft.group')
+# Stage portal
+        wd.get('http://stage-diklz-portal.bitsoft.com.ua')
+# Test portal
+#        wd.get('http://test-diklz-portal.bitsoft.com.ua/')
+# Dev portal
+#        wd.get('http://dev-diklz-portal.bitsoft.com.ua')
 
-#        wd.get('http://stage-diklz-portal.bitsoft.com.ua')
 
-        wd.get('http://test-diklz-portal.bitsoft.com.ua/')
 
     def destroy(self):
         self.wd.quit()

@@ -5,7 +5,7 @@ def test_4_lims_test_case_2_2(app):
                       path_to_key='C:/98745612_7878789898_DU180323123055.ZS2')
     app.first_application.create_second_application()
 
-    app.first_application.create_mpd_second(company_name='Тест',
+    app.first_application.create_mpd_second(company_name='4 - Тест',
                            phone_number='+380123456789',
                            email='test@test.ua',
                            fax_number='+380123456789',
@@ -17,7 +17,7 @@ def test_4_lims_test_case_2_2(app):
 
     app.first_application.authorized_persons_second(person_name='Тест',
                                              person_middle_name='Тестович',
-                                             person_last_name='Тестов',
+                                             person_last_name='4 - Тестов',
                                              person_ipn='1234567890',
                                              person_birthday='13.12.1986',
                                              education='Тест універ',
@@ -33,7 +33,7 @@ def test_4_lims_test_case_2_2(app):
                                              contact_information='12345',
                                              comment='Тест коментар')
 
-    app.first_application.dossier_file_second(version='Тест досьє',
+    app.first_application.dossier_file_second(version='4 - Тест досьє',
                              comment='Тест коментар',
                              date_to='19.04.2025',
                              path_to_file='C:/masloy.png')
