@@ -2,7 +2,7 @@
 
 def test_4_lims_test_case_2_2(app):
     app.session.login(password='111',
-                      path_to_key='C:/98745612_7878789898_DU180323123055.ZS2')
+                      path_to_key='/home/vbash/projects/lims-tst-web-portal/tools/98745612_7878789898_DU180323123055.ZS2')
     app.first_application.create_second_application()
 
     app.first_application.create_mpd_second(company_name='4 - Тест',
@@ -36,11 +36,10 @@ def test_4_lims_test_case_2_2(app):
     app.first_application.dossier_file_second(version='4 - Тест досьє',
                              comment='Тест коментар',
                              date_to='19.04.2025',
-                             path_to_file='C:/masloy.png')
+                             path_to_file='/home/vbash/projects/lims-tst-web-portal/tools/masloy.png')
     app.first_application.completeness_check()
     app.first_application.notifications_and_license_terms_second(comment='Коментар тест')
-    app.first_application.submit_application(path_to_key='C:/98745612_7878789898_DU180323123055.ZS2',
-                                             password='111')
+    app.first_application.submit_application(path_to_key='/home/vbash/projects/lims-tst-web-portal/tools/98745612_7878789898_DU180323123055.ZS2', password='111')
     app.session.logout()
 
 
